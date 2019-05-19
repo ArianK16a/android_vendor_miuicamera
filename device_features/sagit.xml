@@ -2,6 +2,8 @@
 <features>
     <!--whether the device is xiaomi-->
     <bool name="is_xiaomi">true</bool>
+    <!--whether the device is android one-->
+    <bool name="is_android_one_device">true</bool>
     <!--whether the device supports torch-->
     <bool name="support_torch">true</bool>
     <!--whether the device is emulated sdcard-->
