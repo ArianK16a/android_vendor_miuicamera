@@ -22,7 +22,7 @@ vendor/etc/camera/score_icon.png
 vendor/etc/camera/watermark_font_2300_3199.dat
 
 # Device features
-etc/device_features/sagit.xml
+etc/device_features/sagit.xml|d903f6f71171818bea7cb7d472627062cecd202a
 
 # MiuiCamera - from Mi A2 QKQ1.190910.002
 -priv-app/MiuiCamera/MiuiCamera.apk|750b4d86fd0da33439c9af6557084e4faf2cbda6
