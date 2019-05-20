@@ -16,9 +16,5 @@
 PRODUCT_COPY_FILES += \
     device/xiaomi/miuicamera/device_features/sagit.xml:system/etc/device_features/sagit.xml
 
-# Ignore Snap when using MiuiCamera
-LOCAL_OVERRIDES_PACKAGES := \
-    Snap
-
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/miuicamera/miuicamera-vendor.mk)
