@@ -44,6 +44,10 @@ write_headers "xiaomi"
 sed -i 's|TARGET_DEVICE|BOARD_VENDOR|g' common/Android.mk
 
 write_makefiles "$MY_DIR"/proprietary-files.txt true
+# TODO, find a better way, don't hardcode line
+sed '31 i \	overrides: ["Camera2", "Snap"],' common/Android.bp >> common/Android.bp.tmp
+rm common/Android.bp
+mv common/Android.bp.tmp common/Android.bp
 
 # Finish
 write_footers

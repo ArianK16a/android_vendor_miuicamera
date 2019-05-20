@@ -28,5 +28,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
+	overrides: ["Camera2", "Snap"],
 }
 
