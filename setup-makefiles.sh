@@ -46,7 +46,3 @@ write_makefiles "$MY_DIR"/proprietary-files.txt true
 
 # Finish
 write_footers
-
-sed '31 i LOCAL_OVERRIDES_PACKAGES := Snap' ../../../vendor/xiaomi/miuicamera/Android.mk >> ../../../vendor/xiaomi/miuicamera/Android.mk.tmp
-rm ../../../vendor/xiaomi/miuicamera/Android.mk
-mv ../../../vendor/xiaomi/miuicamera/Android.mk.tmp ../../../vendor/xiaomi/miuicamera/Android.mk

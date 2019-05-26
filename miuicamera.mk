@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Include the APK
+PRODUCT_PACKAGES += \
+    MiuiCamera
+
 # Device Features Configuration
 PRODUCT_COPY_FILES += \
     device/xiaomi/miuicamera/device_features/sagit.xml:system/etc/device_features/sagit.xml

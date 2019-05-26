@@ -1,6 +1,3 @@
-# Miui Camera - from Xiaomi Mi A2
--priv-app/MiuiCamera/MiuiCamera.apk|58275934f3e21e898916aebdcf861223c045feec
-
 # Vendor Device Configuration
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/crown_156_128.bin
