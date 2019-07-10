@@ -18,7 +18,11 @@ PRODUCT_PACKAGES += \
 
 # Device Features Configuration
 PRODUCT_COPY_FILES += \
-    device/xiaomi/miuicamera/device_features/sagit.xml:system/etc/device_features/sagit.xml
+    device/xiaomi/miuicamera/configs/device_features/sagit.xml:system/etc/device_features/sagit.xml
+
+# Privapp permissions
+PRODUCT_COPY_FILES += \
+    device/xiaomi/miuicamera/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/miuicamera/miuicamera-vendor.mk)
