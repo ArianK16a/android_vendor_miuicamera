@@ -2,26 +2,6 @@
 <features>
     <!--whether the device is xiaomi-->
     <bool name="is_xiaomi">true</bool>
-    <!--whether the device supports torch-->
-    <bool name="support_torch">true</bool>
-    <!--whether the device is emulated sdcard-->
-    <bool name="is_emulated_sdcard">true</bool>
-    <!--whether the device has dual sd card-->
-    <bool name="support_dual_sd_card">false</bool>
-    <!--whether the device supports record param-->
-    <bool name="support_record_param">true</bool>
-    <!--whether the device supports interview record param-->
-    <bool name="support_interview_record_param">true</bool>
-    <!--whether the device supports stereo record-->
-    <bool name="support_stereo_record">true</bool>
-    <!--whether the device supports hd record param-->
-    <bool name="support_hd_record_param">true</bool>
-    <!--whether the device supports emulated storage-->
-    <bool name="support_emulated_storage">true</bool>
-    <!--whether the device supports internal sdcard-->
-    <bool name="support_internal_sdcard">false</bool>
-    <!--whether the device is xiaomi-->
-    <bool name="is_xiaomi_device">true</bool>
     <!--whether support burst shoot in camera-->
     <bool name="support_camera_burst_shoot">true</bool>
     <!--whether support burst shoot denoise in camera-->
@@ -48,8 +28,6 @@
     <bool name="support_camera_video_pause">true</bool>
     <!--whether support boosting screen brightness in camera-->
     <bool name="support_camera_boost_brightness">true</bool>
-    <!--whether taking lower size panorama in camera-->
-    <bool name="is_lower_size_panorama">false</bool>
     <!--whether support full size panorama in camera-->
     <bool name="support_full_size_panorama">true</bool>
     <!--whether taking lower size effect image in camera-->
