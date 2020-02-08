@@ -1,4 +1,10 @@
-# Vendor Device Configuration
+# Camera
+lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
+lib64/libmorpho_memory_allocator.so:priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so
+lib64/libmorpho_panorama.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so
+lib64/libmorpho_panorama_gp.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
+
+# Camera data
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/crown_156_128.bin
 vendor/etc/camera/dualcamera.png
@@ -15,8 +21,11 @@ vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/watermark_font_2300_3199.dat
 
-# Libraries
-lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
-lib64/libmorpho_memory_allocator.so:priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so
-lib64/libmorpho_panorama.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so
-lib64/libmorpho_panorama_gp.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
+# Device features
+etc/device_features/sagit.xml
+
+# MiuiCamera - from Mi A2 QKQ1.190910.002
+-priv-app/MiuiCamera/MiuiCamera.apk
+
+# priv-app permission - hand-written
+etc/permissions/privapp-permissions-miuicamera.xml
