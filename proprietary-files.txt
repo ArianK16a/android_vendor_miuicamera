@@ -1,13 +1,5 @@
 ## Blobs are extracted from Mi A2 QKQ1.190910.002
 
-# Camera drawables
-vendor/etc/camera/female_bg.png
-vendor/etc/camera/female_icon.png
-vendor/etc/camera/male_bg.png
-vendor/etc/camera/male_icon.png
-vendor/etc/camera/score_bg.png
-vendor/etc/camera/score_icon.png
-
 # Device features
 etc/device_features/sagit.xml|d903f6f71171818bea7cb7d472627062cecd202a
 
