@@ -1,31 +1,22 @@
-# Camera
-lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
-lib64/libmorpho_memory_allocator.so:priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so
-lib64/libmorpho_panorama.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so
-lib64/libmorpho_panorama_gp.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
+## Blobs are extracted from Mi A2 QKQ1.190910.002
 
-# Camera data
-vendor/etc/camera/age_gender_bg
-vendor/etc/camera/crown_156_128.bin
-vendor/etc/camera/dualcamera.png
-vendor/etc/camera/face_goodly_208_180
-vendor/etc/camera/face_ravishing_238_224
-vendor/etc/camera/face_splendid_274_200
+# Camera drawables
 vendor/etc/camera/female_bg.png
 vendor/etc/camera/female_icon.png
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/MIUI_Time.ttf
-vendor/etc/camera/people_gender.dat
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
-vendor/etc/camera/watermark_font_2300_3199.dat
 
 # Device features
 etc/device_features/sagit.xml|d903f6f71171818bea7cb7d472627062cecd202a
 
-# MiuiCamera - from Mi A2 QKQ1.190910.002
--priv-app/MiuiCamera/MiuiCamera.apk|750b4d86fd0da33439c9af6557084e4faf2cbda6
+# MiuiCamera
+lib64/libCameraEffectJNI.so:priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so
+lib64/libmorpho_memory_allocator.so:priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so
+lib64/libmorpho_panorama.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so
+lib64/libmorpho_panorama_gp.so:priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
+-priv-app/MiuiCamera/MiuiCamera.apk
 
 # priv-app permission - hand-written
 etc/permissions/privapp-permissions-miuicamera.xml|fbc03150644d63f6cc1ed41278922dabbb9c7d2d
