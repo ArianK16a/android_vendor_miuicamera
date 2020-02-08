@@ -18,16 +18,16 @@
 
 set -e
 
-DEVICE=sagit
-VENDOR=xiaomi
-
 INITIAL_COPYRIGHT_YEAR=2019
+
+MIUICAMERA_COMMON=common
+VENDOR=miuicamera
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-LINEAGE_ROOT="$MY_DIR"/../../..
+LINEAGE_ROOT="$MY_DIR/../.."
 
 HELPER="$LINEAGE_ROOT"/vendor/lineage/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
@@ -37,10 +37,11 @@ fi
 . "$HELPER"
 
 # Initialize the helper
-setup_vendor "miuicamera" "$VENDOR" "$LINEAGE_ROOT"
+setup_vendor "$MIUICAMERA_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and guards
-write_headers
+write_headers "xiaomi"
+sed -i 's|TARGET_DEVICE|BOARD_VENDOR|g' common/Android.mk
 
 write_makefiles "$MY_DIR"/proprietary-files.txt true
 
