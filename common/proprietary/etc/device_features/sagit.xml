@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features>
-    <!--whether the device is xiaomi-->
-    <bool name="is_xiaomi">true</bool>
     <!--whether support burst shoot in camera-->
     <bool name="support_camera_burst_shoot">true</bool>
     <!--whether support burst shoot denoise in camera-->
