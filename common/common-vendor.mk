@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/miuicamera/
 
 PRODUCT_COPY_FILES += \
+    vendor/miuicamera/common/proprietary/etc/device_features/sagit.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/sagit.xml \
     vendor/miuicamera/common/proprietary/etc/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \
     vendor/miuicamera/common/proprietary/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so \
