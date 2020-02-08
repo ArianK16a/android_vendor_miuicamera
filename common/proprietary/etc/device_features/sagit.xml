@@ -52,6 +52,7 @@
     <bool name="support_camera_manual_function">true</bool>
     <!--whether capture when user press down the shutter in camera instead of left the shutter-->
     <bool name="support_camera_press_down_capture">true</bool>
+    <bool name="front_fingerprint_sensor">true</bool>
     <!--whether support capture in torch mode in camera-->
     <bool name="support_camera_torch_capture">true</bool>
     <!--whether freeze preview after hdr capture in camera-->
