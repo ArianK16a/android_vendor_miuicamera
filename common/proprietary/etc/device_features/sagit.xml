@@ -109,6 +109,8 @@
     <bool name="is_support_portrait">true</bool>
     <!--whether support add watermark on bottom left of picture-->
     <bool name="support_picture_watermark">true</bool>
+    <!-- water mark default value -->
+    <bool name="camera_picture_watermark_default">false</bool>
     <!--whether sensor_has_latency-->
     <bool name="sensor_has_latency">true</bool>
     <!--whether front camera support bokeh or not-->
