@@ -115,4 +115,6 @@
     <bool name="support_front_bokeh">true</bool>
     <!--whether camera support portrait mode switch -->
     <bool name="camera_is_support_portrait_switch">true</bool>
+    <!-- whether camera support Google lens entry -->
+    <bool name="camera_support_google_lens">true</bool>
 </features>
