@@ -41,6 +41,8 @@ setup_vendor "$MIUICAMERA_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 # Copyright headers and guards
 write_headers "xiaomi"
 sed -i 's|TARGET_DEVICE|BOARD_VENDOR|g' common/Android.mk
+sed -i 's|vendor/miuicamera/|vendor/miuicamera/common|g' common/common-vendor.mk
+sed -i 's|device/miuicamera//setup-makefiles.sh|vendor/miuicamera/setup-makefiles.sh|g' common/*.mk
 
 write_makefiles "$MY_DIR"/proprietary-files.txt true
 # TODO, find a better way, don't hardcode line
