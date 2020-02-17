@@ -46,9 +46,7 @@ sed -i 's|device/miuicamera//setup-makefiles.sh|vendor/miuicamera/setup-makefile
 
 write_makefiles "$MY_DIR"/proprietary-files.txt true
 # TODO, find a better way, don't hardcode line
-sed '31 i \	overrides: ["Camera2", "Snap"],' common/Android.bp >> common/Android.bp.tmp
-rm common/Android.bp
-mv common/Android.bp.tmp common/Android.bp
+sed -i '30 a \\toverrides: ["Camera2", "Snap"],' $ANDROIDBP
 
 # Finish
 write_footers
