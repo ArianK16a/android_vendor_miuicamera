@@ -24,7 +24,7 @@ android_app_import {
 	overrides: ["Camera2", "Snap"],
 	owner: "miuicamera",
 	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
